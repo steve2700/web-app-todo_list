@@ -13,20 +13,24 @@
 	<header>
 		<h1>Task List 2023</h1>
 		<form id="new-task-form">
-			<input 
-				type="text" 
-				name="new-task-input" 
-				id="new-task-input" 
-				placeholder="What do you have planned?" />
-			<input 
-				type="number"
-				name="priority-input"
-				id="priority-input"
-				min="1"
-				max="5"
-				placeholder="Priority (1-5)"
-				required
-			/>
+			<div class="input-group">
+				<input 
+					type="text" 
+					name="new-task-input" 
+					id="new-task-input" 
+					placeholder="What do you have planned?" />
+			</div>
+			<div class="input-group">
+				<input 
+					type="number"
+					name="priority-input"
+					id="priority-input"
+					min="1"
+					max="5"
+					placeholder="Priority (1-5)"
+					required
+				/>
+			</div>
 			<input 
 				type="submit"
 				id="new-task-submit" 
