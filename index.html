@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Task List 2021</title>
+	<title>Task List 2023</title>
 
 	<link rel="stylesheet" href="main.css" />
 </head>
@@ -18,6 +18,15 @@
 				name="new-task-input" 
 				id="new-task-input" 
 				placeholder="What do you have planned?" />
+			<input 
+				type="number"
+				name="priority-input"
+				id="priority-input"
+				min="1"
+				max="5"
+				placeholder="Priority (1-5)"
+				required
+			/>
 			<input 
 				type="submit"
 				id="new-task-submit" 
@@ -51,3 +60,4 @@
 	<script src="main.js"></script>
 </body>
 </html>
+
