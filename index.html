@@ -4,35 +4,22 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Task List 2023</title>
+	<title>Task List 2021</title>
 
 	<link rel="stylesheet" href="main.css" />
+	<link rel="icon" type="image/jpeg" href="https://icon-library.com/images/todo-icon/todo-icon-5.jpg">
+
 </head>
 <body>
 	
 	<header>
-		<h1>Task List 2023</h1>
+		<h1>Task List 2021</h1>
 		<form id="new-task-form">
-			<div>
-				<label for="new-task-input">What do you have planned?</label>
-				<input 
-					type="text" 
-					name="new-task-input" 
-					id="new-task-input" 
-					placeholder="Enter your task" />
-			</div>
-			<div>
-				<label for="priority-input">Priority (1-5)</label>
-				<input 
-					type="number"
-					name="priority-input"
-					id="priority-input"
-					min="1"
-					max="5"
-					placeholder="Enter priority"
-					required
-				/>
-			</div>
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
 			<input 
 				type="submit"
 				id="new-task-submit" 
@@ -52,7 +39,6 @@
 							class="text" 
 							value="A new task"
 							readonly>
-						<span class="priority">Priority: 3</span>
 					</div>
 					<div class="actions">
 						<button class="edit">Edit</button>
@@ -67,4 +53,3 @@
 	<script src="main.js"></script>
 </body>
 </html>
-
